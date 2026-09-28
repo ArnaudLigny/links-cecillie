@@ -1,0 +1,22 @@
+@import 'tailwindcss';
+@source './layouts/**/*.html.twig';
+@source './../themes/links/layouts/**/*.html.twig';
+@import './../themes/links/assets/tailwind.css';
+
+/**
+ * You can add your custom Tailwind CSS styles here,
+ * then run `composer css:build` to compile.
+ */
+
+body {
+  @apply bg-[#A6A8AA] text-[#303133] font-sans;
+  @apply text-[#303133];
+}
+
+body > div {
+  @apply bg-[#ECEEF1];
+}
+
+.button {
+  @apply bg-[#FFFFFF] border-none;
+}

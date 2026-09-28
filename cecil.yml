@@ -1,0 +1,52 @@
+title: Cécile Ricordeau
+baseurl: https://links.cecillie.fr/
+baseline: "Illustratrice française"
+description: "Cécile Ricordeau, illustratrice française : boutique, Etsy, direction artistique, UX & UI design."
+author:
+  name: Cécile Ricordeau
+  url: https://www.cecillie.fr
+  email: hello@cecillie.fr
+social:
+  instagram:
+    url: https://instagram.com/cecile.ricordeau
+  linkedin:
+    url: https://www.linkedin.com/in/cecile-ricordeau
+avatar: avatar.png
+image: avatar.png # Open Graph image
+# CSS theme and buttons colors
+links:
+  buttons:
+    color: css # page or css ('page' by default)
+# pages configuration
+pages:
+  body:
+    links:
+      external:
+        blank: true # open in new tab
+  default:
+    sitemap:
+      published: false
+    xsl/sitemap:
+      published: false
+    xsl/atom:
+      published: false
+# PWA
+manifest:
+  background_color: "#A6A8AA"
+  theme_color: "#A6A8AA"
+  theme_color_dark: "#303133"
+serviceworker:
+  enabled: false
+# languages
+language: fr
+languages:
+  - code: fr
+    locale: fr_FR
+    name: Français
+# themes
+theme:
+  - links
+  - fontawesome
+  - pwa
+  - redirects
+  - headers
