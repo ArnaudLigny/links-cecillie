@@ -1,4 +1,4 @@
-# Links — Cécile Ricordeau
+# links@cecillie
 
 Page de liens de [Cécile Ricordeau](https://www.cecillie.fr), illustratrice française (alternative à <https://linktr.ee/cecillie>).
 
